@@ -156,12 +156,13 @@ input[type="radio"]:checked + label span.round {
 
 .custom-input{
 	width: 80%;
+	border-radius: 4px;
 	height: fit-content;
 	font-size: 18px;
 	font-family: "Pretendard";
     border: none;
     outline: none;
-    background-color: transparent;
+    background-color: whitesmoke;
 
 	border-bottom: 2px dashed rgb(175, 175, 175);
 
@@ -175,7 +176,6 @@ textarea.custom-input{
 	border: 2px dashed rgb(175, 175, 175);
 }
 .custom-input[type=file]{
-	border:none;
 	width:fit-content;
 }
 
@@ -209,6 +209,7 @@ textarea.custom-input{
 	border: 1px solid rgb(90, 90, 90);
 	padding:12px;
 	margin: 15px 0;
+	background-color:whitesmoke;
 }
 
 
@@ -229,7 +230,15 @@ textarea.custom-input{
 	font-family: "Pretendard";
 	list-style-type: decimal;
 }
+#pmaker_answer_list li{
+	margin-top:10px;
+}
 
+
+
+
+
+/*  */
 
 .problem_answer_list{
 	padding:15px;

@@ -45,7 +45,7 @@
 				
 				<table class="plist-item-table">
 					<thead>
-						<tr>
+						<tr draggable="false">
 							<th class="plist-item-no plist-right-border">번호</th>
 							<th class="plist-item-no plist-right-border">종류</th>
 							<th class="plist-item-content plist-right-border">내용</th>
@@ -54,7 +54,7 @@
 					</thead>
 					
 					<tbody id="plist-body">
-						<tr draggable="true">
+						<tr class="putable" draggable="true">
 							<td class="plist-item-no plist-right-border">
 								1
 							</td>
@@ -70,7 +70,7 @@
 							</td>
 						</tr>
 						
-						<tr draggable="true">
+						<tr class="putable" draggable="true">
 							<td class="plist-item-no plist-right-border">
 								2
 							</td>
@@ -86,7 +86,7 @@
 							</td>
 						</tr>
 						
-						<tr draggable="true">
+						<tr class="putable" draggable="true">
 							<td class="plist-item-no plist-right-border">
 								3
 							</td>
@@ -343,6 +343,7 @@ And I had no appetite.
 			
 			picked = e.target;
 			pickedIndex = [...obj.parentNode.children].indexOf(obj);
+			picked.classList.add("picked-item");
 		});
 		
 		plist.addEventListener("dragover",(e)=>{
@@ -350,17 +351,13 @@ And I had no appetite.
 		});
 		
 		plist.addEventListener("drop",(e)=>{
-			let el = e.target;
+			picked.classList.remove("picked-item");
+			if(picked.getAttribute("draggable") != "true") return;
 			
-			let loopCount = 0;
-			while (el.tagName != "TR") {
-				  el = el.parentNode;
-				  loopCount++;
-				  if(loopCount>10) return;
-			}
+			let el = e.target.parentNode;
+			if(el.tagName != "TR" || !el.classList.contains("putable")) return;
 			
 			let index = [...(el.parentNode.children)].indexOf(el);
-			console.log(index);
 			
 			(index > pickedIndex) ? el.after(picked) : el.before(picked)
 		});

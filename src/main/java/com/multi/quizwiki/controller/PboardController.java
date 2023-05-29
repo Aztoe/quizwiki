@@ -21,4 +21,9 @@ public class PboardController {
 	public String show_pboard_write() {
 		return "pboard/write";
 	}
+	
+	@GetMapping("/pboard/read")
+	public String show_pboard_read() {
+		return "pboard/read";
+	}
 }

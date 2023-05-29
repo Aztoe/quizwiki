@@ -60,7 +60,7 @@
 						<td>
 							<h5>1</h5>
 						</td>
-						<td class="text-left"><a href="#">6월 모의고사 2023-06-16 모의고사
+						<td class="text-left"><a href="/quizwiki/pboard/read">6월 모의고사 2023-06-16 모의고사
 								제목 길게 테스트ㄷㄷㄷㄷㄷㄷㄷ </a></td>
 						<td>
 							<h5>홍길동</h5>
@@ -81,7 +81,7 @@
 						<td>
 							<h5>1</h5>
 						</td>
-						<td class="text-left"><a href="#">6월 모의고사 2023-06-16 모의고사
+						<td class="text-left"><a href="/quizwiki/pboard/read">6월 모의고사 2023-06-16 모의고사
 								제목 길게 testtesttesttesttesttesttesttesttesttesttesttest </a></td>
 						<td>
 							<h5>홍길동</h5>
@@ -102,7 +102,7 @@
 						<td>
 							<h5>1</h5>
 						</td>
-						<td class="text-left"><a href="#">asdasd</a></td>
+						<td class="text-left"><a href="/quizwiki/pboard/read">asdasd</a></td>
 						<td>
 							<h5>홍길동</h5>
 						</td>
@@ -122,7 +122,7 @@
 						<td>
 							<h5>1</h5>
 						</td>
-						<td class="text-left"><a href="#">123awd </a></td>
+						<td class="text-left"><a href="/quizwiki/pboard/read">123awd </a></td>
 						<td>
 							<h5>홍길동</h5>
 						</td>
@@ -142,7 +142,7 @@
 						<td>
 							<h5>1</h5>
 						</td>
-						<td class="text-left"><a href="#">12423634745 </a></td>
+						<td class="text-left"><a href="/quizwiki/pboard/read">12423634745 </a></td>
 						<td>
 							<h5>홍길동</h5>
 						</td>

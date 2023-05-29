@@ -11,6 +11,10 @@
 	<definition name="pboard/write" extends="doubleBannerTemplate">
 		<put-attribute name="content" value="/WEB-INF/pboard/pboard_write.jsp"></put-attribute>
 	</definition>
+	
+		<definition name="pboard/read" extends="doubleBannerTemplate">
+		<put-attribute name="content" value="/WEB-INF/pboard/pboard_read.jsp"></put-attribute>
+	</definition>
 </tiles-definitions>
 
 

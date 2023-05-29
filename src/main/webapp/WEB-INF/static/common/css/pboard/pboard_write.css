@@ -118,6 +118,13 @@
 
 }
 
+
+/* drag */
+.picked-item{
+	outline: 2px dashed yellow;
+}
+/* drag */
+
 /* problem maker */
 #pmaker-area{
 	width:100%;
