@@ -37,7 +37,7 @@
 	
 	<section id="footer-section2">
 	    <div id="footer-logo-holder">
-	        <img width="100%" height="100%" src="/quizwiki/images/main/graylogo.png" />
+	        <img width="100%" height="100%" src="/quizwiki/images/QuizWiki_logo1_gray.png" />
 	    </div>
 	
 	    <ul class="footer-desc">
