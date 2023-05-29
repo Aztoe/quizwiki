@@ -51,10 +51,15 @@
 							<div class="invalid-feedback">아이디를 입력해주세요.</div>
 						</div>
 						<div class="col-md-6 mb-3">
-							<label for="pass">패스워드</label> <input type="password"
+							<label for="pass">비밀번호</label> <input type="password"
 								class="form-control" id="pass"  placeholder="" value="" required>
-							<div class="invalid-feedback">패스워드를 입력해주세요.</div>
+							<div class="invalid-feedback">비밀번호를 입력해주세요.</div>
 						</div>
+						<!-- <div class="col-md-3 mb-3">
+							<label for="pass">비밀번호 확인</label> <input type="password"
+								class="form-control" id="pass_check"  placeholder="" value="" required>
+							<div class="invalid-feedback">비밀번호를 다시입력해주세요.</div>
+						</div> -->
 					</div>
 
 					<div class="row">

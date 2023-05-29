@@ -10,9 +10,6 @@ public class MainController {
 		
 	}
 	
-
-	
-	
 	@RequestMapping("/use")
 	public String use() {
 		return "use";

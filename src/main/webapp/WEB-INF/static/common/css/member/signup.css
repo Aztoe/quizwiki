@@ -7,14 +7,18 @@
 body {
 
 	min-height: 100vh;
-	background: -webkit-gradient(linear, left bottom, right top, from(#92b5db),
+	/* background: -webkit-gradient(linear, left bottom, right top, from(#92b5db),
 		to(#1d466c));
-	background: -webkit-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
-	background: -moz-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
-	background: -o-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
-	background: linear-gradient(to top right, #92b5db 0%, #1d466c 100%);
+	background: -webkit-linear-gradient(bottom left, #6797f0 0%, #1d466c 100%);
+	background: -moz-linear-gradient(bottom left, #6797f0 0%, #1d466c 100%);
+	background: -o-linear-gradient(bottom left, #6797f0 0%, #1d466c 100%); */
+	background: linear-gradient(to top, #fff 20%, #6797f0 100%);
 }
-
+.btn-primary {
+    color: #fff;
+    background-color: #5a49e4!important;
+    border-color: #5a49e4!important;
+}
 .input-form {
 	max-width: 680px;
 	margin-top: 80px;
@@ -39,8 +43,8 @@ body {
     border-radius: 0.3rem;
 	
 	color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #5a49e4;
+    border-color: #5a49e4;
 }
 .div_btn{
 	padding-top: 35px;

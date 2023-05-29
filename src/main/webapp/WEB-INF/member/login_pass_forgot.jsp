@@ -20,7 +20,7 @@
 				<form action="" class="login__register" id="login-in">
 					<h1 class="login__title">
 						<a href="/quizwiki/main">
-							<img src="/quizwiki/images/main/logo.png" id="login_title_img">
+							<img src="/quizwiki/images/main/QuizWiki_logo1.jpeg" id="login_title_img">
 						</a>
 					</h1>
 					<div class="login__box login_id_forgot">
