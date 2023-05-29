@@ -19,7 +19,7 @@
 				<form action="" class="login__register" id="login-in">
 					<h1 class="login__title">
 						<a href="/quizwiki/main">
-							<img src="/quizwiki/images/main/logo.png" id="login_title_img">
+							<img src="/quizwiki/images/main/QuizWiki_logo1.jpeg" id="login_title_img">
 						</a>
 					</h1>
 					<div class="login__box">
@@ -41,7 +41,7 @@
 					<div>
 						<span class="login__account login__account--account">계정이
 							없으신가요?</span> <span class="login__signin login__signin--signup"
-							id="sign-up">회원가입</span>
+							id="sign-up"><a href="/quizwiki/signup.do">회원가입</a></span>
 					</div>
 				</form>
 			</div>

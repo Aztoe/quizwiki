@@ -25,13 +25,15 @@ body {
   font-size: 0.938rem;
   color: #23004d;
 }
-body{
+body {
+
 	min-height: 100vh;
-    background: -webkit-gradient(linear, left bottom, right top, from(#92b5db), to(#1d466c));
-    background: -webkit-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
-    background: -moz-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
-    background: -o-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
-    background: linear-gradient(to top right, #92b5db 0%, #1d466c 100%);
+	/* background: -webkit-gradient(linear, left bottom, right top, from(#92b5db),
+		to(#1d466c));
+	background: -webkit-linear-gradient(bottom left, #6797f0 0%, #1d466c 100%);
+	background: -moz-linear-gradient(bottom left, #6797f0 0%, #1d466c 100%);
+	background: -o-linear-gradient(bottom left, #6797f0 0%, #1d466c 100%); */
+	background: linear-gradient(to top, #fff 20%, #6797f0 100%);
 }
 
 h1 {
@@ -82,7 +84,7 @@ hr{
   position: absolute;
   bottom: 1rem;
   width: 100%;
-  background-color: #f2f2f2;
+  background-color: #efefef;
   padding: 2rem 1rem;
   border-radius: 1rem;
   text-align: center;
@@ -99,7 +101,7 @@ hr{
   margin-bottom: 2rem;
 }
 .login_id_forgot{
-	background-color: #f2f2f2!important;
+	background-color: #efefef!important;
     font-size: 1.2rem;
     padding: 0!important;
     padding-left: 0.3rem!important;
@@ -122,7 +124,7 @@ hr{
 }
 .login__icon {
   font-size: 1.5rem;
-  color: #007bff;
+  color: #5a49e4;
 }
 .login__input {
   border: none;
@@ -152,7 +154,7 @@ hr{
   display: block;
   padding: 1rem;
   margin: 2rem 0;
-  background-color: #007bff;
+  background-color: #5a49e4;
   color: #fff;
   font-weight: 600;
   text-align: center;
@@ -160,7 +162,7 @@ hr{
   transition: 0.3s;
 }
 .login__button:hover {
-  background-color: #0062cc;
+  background-color: black;
 }
 .login__account, .login__signin, .login__signup {
   font-weight: 600;
@@ -234,7 +236,7 @@ hr{
     left: -11rem;
   }
   .login__register {
-    bottom: -2rem;
+    bottom: -4rem;
   }
   .login__create {
     bottom: -5.5rem;
