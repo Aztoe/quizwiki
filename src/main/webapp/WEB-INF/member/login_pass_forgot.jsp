@@ -37,11 +37,27 @@
 						<input type="text"
 							placeholder="" class="login__input">
 					</div>
-					<div class="login__box login_tel">
-						휴대폰번호
-						<input type="text"
-							placeholder="-제외 숫자만 입력" class="login__input">
-					</div>				
+					<div class="row">
+						<div class="login__box login_tel">
+							휴대폰번호 <input type="text" placeholder="-제외 숫자만 입력"
+								class="login__input">
+						</div>
+
+						<div class="div__check__button">
+							<a href="#" class="login__button check__button">인증번호 받기</a>
+						</div>
+					</div>			
+					
+					<div class="row">
+						<div class="login__box login_tel login_num">
+							인증번호 <input type="text" placeholder="6자리 인증번호 입력"
+								class="login__input">
+						</div>
+
+						<div class="div__check__button">
+							<a href="#" class="login__button check__button">인증번호 확인</a>
+						</div>
+					</div>
 					<a href="#"	class="login__button">비밀번호 찾기</a>				
 				</form>	
 			</div>
