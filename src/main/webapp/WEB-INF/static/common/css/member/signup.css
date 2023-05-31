@@ -75,8 +75,14 @@ body {
     margin-left: 1rem;
 }
 }
-@media (min-width:800px){
-	.small_btn{
+@media (max-width:768px){
+	.col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    margin-left: 1rem;
+}
+	.code_num_btn{
 	display: block!important;
     width: 100%!important;
     

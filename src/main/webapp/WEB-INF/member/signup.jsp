@@ -68,15 +68,15 @@
 						</div>
 					</div>
 						<div class="row">
-						<div class="col-md-8 mb-3">
+						<div class="col-md-11 mb-3">
 							<label for="pass_check">비밀번호 확인</label> <input type="password"
 								class="form-control" id="pass_check"  placeholder="" value="" required>
 							<div class="invalid-feedback">비밀번호를 다시입력해주세요.</div>
 						</div>
-						<div class="col-md-1.5 mb-2 div_btn" id="div_zipcode_btn">
-							<input type="button" id="zipcode_btn_pass" class="small_btn code_num_btn"
+						<!-- <div class="col-md-1.5 mb-2 div_btn" id="div_zipcode_btn">
+							<input type="button" id="zipcode_btn_pass" class="code_num_btn"
 								onclick="" value="비밀번호 확인">
-						</div>
+						</div> -->
 						</div>
 					<!-- </div>
 					<div class="row"> -->
@@ -111,7 +111,7 @@
 							<div class="invalid-feedback">전화번호를 입력해주세요.</div>
 						</div>
 						<div class="col-md-1.5 mb-2 div_btn" id="div_zipcode_btn">
-							<input type="button" id="zipcode_btn_num" class="small_btn code_num_btn"
+							<input type="button" id="zipcode_btn_num" class="code_num_btn"
 								onclick="" value="인증번호 발송">
 						</div>
 						</div>
@@ -139,7 +139,7 @@
 							<div class="invalid-feedback">우편번호를 통해 주소를 입력해주세요.</div>
 						</div>
 						<div class="col-md-1.5 mb-2 div_btn" id="div_zipcode_btn">
-							<input type="button" id="zipcode_btn" class="code_num_btn small_btn"
+							<input type="button" id="zipcode_btn" class="code_num_btn"
 								onclick="sample4_execDaumPostcode()" value="우편번호 찾기">
 						</div>
 						</div>
