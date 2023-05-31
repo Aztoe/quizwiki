@@ -76,17 +76,34 @@ body {
 }
 }
 @media (max-width:768px){
+	.row{
+	display: inline-block!important;
+	min-width: 100%;
+	}
+	
 	.col-md-8 {
+	display: inline-block!important;
     -ms-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
     margin-left: 1rem;
+    margin-right: 0;
 }
+	
 	.code_num_btn{
-	display: block!important;
-    width: 100%!important;
+	display: inline-block!important;
     
     }
 }
-
+@media (max-width:476px){
+.div_btn{
+	padding-top: 0;
+	float: left;
+	margin-left: 2rem;
+	
+	}
+	.code_num_btn{
+	width: 100%;
+	}
+}
 
