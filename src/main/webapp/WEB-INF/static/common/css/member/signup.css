@@ -22,6 +22,10 @@ body {
     background-color: #5a49e4!important;
     border-color: #5a49e4!important;
 }
+.btn-primary:hover{
+	background-color: black!important;
+	transition: 0.3s!important;
+}
 .input-form {
 	max-width: 680px;
 	margin-top: 80px;
@@ -44,12 +48,14 @@ body {
     font-size: 1rem;
     line-height: 0.8;
     border-radius: 0.3rem;
-	
 	color: #fff;
     background-color: #5a49e4;
     border-color: #5a49e4;
+    transition: 0.3s;
 }
-
+.code_num_btn:hover {
+  background-color: black;
+}
 .div_btn{
 	padding-top: 35px;
 	padding-left:inherit; 
@@ -62,6 +68,7 @@ body {
     margin-bottom: 1rem!important;
     margin-left: 1rem;
 }
+
 @media (min-width: 768px){
 	.col-md-12 {
     -ms-flex: 0 0 100%;
