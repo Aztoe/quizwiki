@@ -38,7 +38,7 @@
 		
 		<div class="custom-btn-list">
 			<div class="custom-btn blue-btn"><i class="fa-solid fa-thumbs-up"></i>추천하기</div>
-			<div class="custom-btn green-btn"><i class="fa-solid fa-pen"></i>문제 풀어보기</div>
+			<div onclick="openCBT()" class="custom-btn green-btn"><i class="fa-solid fa-pen"></i>문제 풀어보기</div>
 		</div>
 		
 		<div class="comment-area">
@@ -63,5 +63,26 @@
 		
 	</div>
 	<!-- pboard_read end -->
+	
+	
+	<script type="text/javascript">
+		function openCBT(){
+			/* let plist = []; */
+			let width = Math.floor(screen.width * 0.9);
+			let height = Math.floor(screen.height * 0.9);
+			let left = Math.floor((screen.width - width) / 2);
+			let top = Math.floor((screen.height - height) / 2);
+			
+			let cbt = window.open(
+			  "/quizwiki/cbt",
+			  "QuizWiki-CBT",
+			  "width="+width+", height="+height+", top="+top+", left="+left
+			);
+
+
+
+			/* cbt.postMessage(plist,"*"); */
+		}
+	</script>
 </body>
 </html>
