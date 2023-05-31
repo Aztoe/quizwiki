@@ -17,6 +17,15 @@ body {
 	background: -o-linear-gradient(bottom left, #6797f0 0%, #1d466c 100%); */
 	background: linear-gradient(to top, #fff 20%, #6797f0 100%);
 }
+.logo_wrap{
+      position: relative;
+    left: 16rem;
+    top: 3rem;
+    display: inline-block;
+    width: 195px!important;
+    height: 40px!important;
+    
+}
 .btn-primary {
     color: #fff;
     background-color: #5a49e4!important;

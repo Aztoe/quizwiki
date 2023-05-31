@@ -22,12 +22,7 @@
 		<div class="login__content">
 			<div class="login__forms">
 				<form action="" class="login__register" id="login-in">
-					<h1 class="login__title">
-						<a href="/quizwiki/main"> <img
-							src="/quizwiki/images/main/QuizWiki_logo1.jpeg"
-							id="login_title_img">
-						</a>
-					</h1>
+					
 					<div class="login__box login_id_forgot">아이디 찾기</div>
 					<hr>
 					<div class="login__box login_name">
