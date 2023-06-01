@@ -10,12 +10,5 @@ public class MainController {
 		
 	}
 	
-	@RequestMapping("/use")
-	public String use() {
-		return "use";
-	}
-	@RequestMapping("/infor")
-	public String infor() {
-		return "infor";
-	}
+	
 }
