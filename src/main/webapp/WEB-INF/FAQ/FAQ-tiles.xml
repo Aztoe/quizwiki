@@ -24,4 +24,7 @@
 	<definition name="etc" extends="singleTemplate">
 		<put-attribute name="content" value="/WEB-INF/FAQ/etc.jsp"></put-attribute>
 	</definition>
+	<definition name="oto" extends="singleTemplate">
+		<put-attribute name="content" value="/WEB-INF/FAQ/oneToOne.jsp"></put-attribute>
+	</definition>
 </tiles-definitions>
