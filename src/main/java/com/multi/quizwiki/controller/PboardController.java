@@ -26,4 +26,9 @@ public class PboardController {
 	public String show_pboard_read() {
 		return "pboard/read";
 	}
+	
+	@GetMapping("/cbt")
+	public String show_cbt() {
+		return "pboard/cbt";
+	}
 }
