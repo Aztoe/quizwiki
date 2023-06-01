@@ -27,7 +27,7 @@
 					<div class="error_box__wrap">
 						<div class="error_box">
 							<p>
-								<strong>내신코치에 대한 궁금한 점, 편리한 1:1 문의로 해결해보세요!</strong>
+								<strong>Quiz Wiki에 대한 궁금한 점, 편리한 1:1 문의로 해결해보세요!</strong>
 							</p>
 							<p>전화연결보다 1:1문의가 더 신속하고 편리하게 해결됩니다.</p>
 							<a href="oto" class="comm_btnStyle"><span
@@ -62,7 +62,7 @@
 									 <li> 
                                         <div><p><span>[기타]</span>(사업)제휴 문의</p></div>
                                         <div>
-                                            <div class="content"><p>내신코치와의 사업 제휴를 원하시는 경우 아래에 메일주소로 제휴제안 메일을 보내시면 <br />검토 후 회신을 드립니다.</p><p><br /></p><p>◎ 사업 제휴 제안 메일 ◎<br />naeshin@naver.com</p></div>
+                                            <div class="content"><p>Quiz Wiki와의 사업 제휴를 원하시는 경우 아래에 메일주소로 제휴제안 메일을 보내시면 <br />검토 후 회신을 드립니다.</p><p><br /></p><p>◎ 사업 제휴 제안 메일 ◎<br />naeshin@naver.com</p></div>
                                         </div>
                                     </li>
 								</ul>
