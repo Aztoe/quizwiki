@@ -4,6 +4,9 @@
 <head>
 <meta charset="UTF-8">
 
+	<!-- cdn -->
+    <script src="https://kit.fontawesome.com/e92cf22849.js" crossorigin="anonymous"></script>
+
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/quizwiki/css/common.css"/>
     <link rel="stylesheet" type="text/css" href="/quizwiki/css/header.css"/>
