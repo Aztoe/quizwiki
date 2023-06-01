@@ -11,7 +11,9 @@
 /*=============================================================
 00.공통사용
 =============================================================*/
-
+* {
+    letter-spacing: -0.5px;
+}
 html{height:100%; font-size:11px;}
 body{height:100%; text-align: left;font-size:12px;color:#555;line-height:20px; font-family:'Esamanru', 'Pretendard', sans-serif; font-weight: 400;}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,p,button,address,table, tbody, tfoot, thead, th, tr, tdvideo, tt{margin:0;padding:0; font-weight: 400;}
@@ -52,7 +54,7 @@ a {text-decoration: none  !important;}
 #myPage_contents .section_title p {font-size: 20px; }
 #myPage_contents .section_title p.title {color: #000; margin-right: 15px;}
 #myPage_contents .section_title p.title span {background-position: center left; background-size: 25px; background-repeat: no-repeat; padding:10px 0 10px 35px;}
-#myPage_contents .section_title p.title span.bl01 {background-image: url('/_img/resource/icon-mypage_bl01.png')}
+#myPage_contents .section_title p.title span.bl01 {background-image: url('/quizwiki/images/icon-mypage_bl01.png')}
 #myPage_contents .section_title p.title span.bl02 {background-image: url('/_img/resource/coin.png')}
 #myPage_contents .section_title p strong {color: #03ab9a; font-weight: 500;}
 #myPage_contents .section_title p strong em {font-size: 30px; font-weight: 600;}
@@ -162,53 +164,6 @@ textarea:placeholder {color: #5a5a5a;}
 
 
 
-/*=============================================================
-1.헤더
-=============================================================*/
-#nscoach-header {}
-
-#utility_bar {background: #f6f6f6; border-bottom: 1px solid #ebecee; height: 40px; box-sizing: border-box; overflow: hidden;}
-#utility_bar .inner_cont {justify-content: space-between;}
-
-#notice_slider {height: 40px; overflow: hidden; position: relative; box-sizing: border-box; padding-left: 60px; font-family: 'Pretendard'; line-height: 40px;}
-#notice_slider::before {content: 'NOTICE'; color: #40ce6e; position: absolute; top: 0; left: 0; font-weight: 700;}
-#notice_slider .swiper-slide {}
-#notice_slider .swiper-slide a {color: #707370; font-size: 13px; text-align: left; }
-
-#modify_list {display: flex; background: #000; border-radius: 0 0 20px 20px; height: 40px; padding: 0 25px; align-items: center;}
-#modify_list li {}
-#modify_list li a {font-size: 13px; position: relative; padding: 0 15px; color: #fff; font-family: 'Pretendard';}
-#modify_list li a::before {position: absolute; right: 0; top: 2px; width: 1px; height: 11px; background: #666; content: '';}
-#modify_list li:first-of-type a {padding-left: 0}
-#modify_list li:last-of-type a::before {display: none;}
-#modify_list li:last-of-type a {padding-right: 0;}
-#modify_list li.fav a {padding-left: 27px;}
-#modify_list li.fav a {background: url('/_img/resource/icon-fav.png') no-repeat center left 10px; background-size: 13px;}
-
-#gnb_bar {}
-#gnb_bar .inner_cont {justify-content: space-between; height: 90px;}
-#gnb_bar h1.logo {}
-#gnb_bar h1.logo img {}
-#gnb_bar h1.logo a.text {font-size: 21px; position: relative; padding-left: 15px; font-weight: 300; margin-top: 3px}
-#gnb_bar h1.logo a.text::before {position: absolute; top: 0; left: 6px; width: 1px; height: 18px; background: #999; content: '';}
-
-#gnb__wrap {}
-#gnb__wrap ul {display: flex;}
-#gnb__wrap ul li {}
-#gnb__wrap ul li>a {font-size: 19px; color: #212121; padding: 35px 20px; position: relative;}
-#gnb__wrap ul li>a>span {position: relative; z-index: 1}
-#gnb__wrap ul li>a::before {position: absolute; top: 50%; left: 0; width: 3px; height: 3px; transform: translateY(-50%); border-radius: 100%; background: #212121; content: '';}
-#gnb__wrap ul li>a::after {display: none; width: 50px; height: 50px; background-color: #18d895; border-radius: 100%; content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
-#gnb__wrap ul li:first-of-type a::before {display: none;}
-#gnb__wrap ul li#show_drop_directMenu>a span {background: url("../_img/common/btn-all_menu.png") no-repeat top 3px left; padding-left: 30px;}
-#gnb__wrap ul li#show_drop_directMenu>a::after {display: none !important}
-#gnb__wrap ul li>a:hover::after {display: block}
-
-#search__wrap {align-items: center; display: flex;}
-#search__wrap a {font-size: 16px; color: #2f2f2f; padding-left: 30px; background-position:  center left; background-repeat: no-repeat; margin-right: 30px; padding-top:2px; padding-bottom: 2px; font-weight: 300}
-#search__wrap a#free_download {background-image: url("../_img/resource/icon-freeDown.png")}
-#search__wrap a#buy_ticket {background-image: url("../_img/resource/icon-buyTicket.png")}
-#search__wrap button {border: 0; background-color: transparent; margin-top: -2px}
 
 
 
@@ -252,78 +207,11 @@ textarea:placeholder {color: #5a5a5a;}
 
 
 
-/*=============================================================
-2.푸터
-=============================================================*/
-#fnb__wrap {border: 1px solid #000; border-width: 1px 0;  box-sizing: border-box;}
-#fnb__wrap .inner_cont {justify-content: space-between; height:55px;}
-#fnb__wrap ul {display: flex; flex-wrap: wrap;}
-#fnb__wrap ul li {}
-#fnb__wrap ul li a {color: #212121; font-size: 15px; padding: 0 20px;}
-#fnb__wrap .cs_info {}
-#fnb__wrap .cs_info dl {margin-right: 20px; display: flex; flex-wrap: wrap;}
-#fnb__wrap .cs_info dl dt, #fnb__wrap .cs_info dl dd {font-size: 15px; color: #878787;}
-#fnb__wrap .cs_info dl dt {margin-right: 10px;}
-#fnb__wrap .cs_info dl dd {}
-#fnb__wrap .cs_info dl:first-of-type dt, #fnb__wrap .cs_info dl:first-of-type dd {color: #212121;}
-
-#foot_info {padding: 30px 0}
-#foot_info .inner_cont {box-sizing: border-box;padding-left: 200px;}
-#foot_info h1 {position: absolute; top: 50%; left: 0; transform: translateY(-50%);}
-#foot_info p {font-size:14px; color: #878787; margin: 3px 0; font-family: 'Pretendard';}
-#foot_info p span {padding-right: 10px;}
-#foot_info p#copyright {color: #cacaca;}
 
 
 
 
-/*=============================================================
-3.팝업
-=============================================================*/
-.modal_pop {position: fixed; top:50%; left: 50%; transform: translate(-50%,-40%); z-index: -1; background: #fff; border-radius: 10px; border: 3px solid #000; box-sizing: border-box; width: 540px; padding: 50px 40px; transition: 0.5s; opacity: 0; visibility: hidden;}
-.modal_pop input {outline: none !important;}
-.modal_pop .pop_close_btn {width: 60px; height: 60px; background: #000; border-radius: 0 5px 5px 0; text-align: center; line-height: 60px; cursor: pointer; position: absolute; top: -3px; right: -60px;}
-.modal_pop .pop_close_btn img {width: 20px; }
-.modal_pop .pop_title {margin-bottom: 30px;}
-.modal_pop .pop_title p {color: #9a9a9a; font-size: 14px; margin-top: 15px; font-weight: 300;}
-.modal_pop .pop_title p.title {font-size: 25px; font-weight: 500; color: #000; margin-top: 0; line-height: 1.5}
-.modal_pop .pop_title p.center {text-align: center;}
 
-.modal_btns {display: flex; flex-wrap: wrap; justify-content:space-between; margin-top: 50px;}
-.modal_btns.center {justify-content: center;}
-.modal_btns button {width: 220px; height: 60px; border-radius: 6px; border: 0; font-size: 16px; font-family: 'Esamanru'; box-sizing: border-box;}
-.modal_btns button.full {width: 100%; margin: 5px 0;}
-.modal_btns button.fill-black {background: #000; color: #fff;}
-.modal_btns button.fill-green {background: #0cba8b; color: #fff;}
-.modal_btns button.fill-outline {background: #fff; color: #000; border: 1px solid #000;}
-
-.modal_pop.show {transform: translate(-50%,-50%); opacity: 1; visibility: visible; z-index: 9999;}
-
-.modal_pop .info_overWrap {width: 100%; height: 100%; max-height: 630px; overflow-y: scroll; scrollbar-width: none; -ms-overflow-style: scrollbar; overflow-x: hidden; padding: 50px 40px}
-.modal_pop .info_overWrap::-webkit-scrollbar {width: 6px; display: block;}
-.modal_pop .info_overWrap::-webkit-scrollbar-thumb {height: 17%; background-color: #000; border-radius: 10px;}
-.modal_pop .info_overWrap::-webkit-scrollbar-track {/*background-color:#e1e1e1; padding: 1px; box-sizing: border-box; width: 8px;*/}
-
-
-
-/*이용권구매*/
-.purchase_pop {}
-.purchase_info {border-top: 1px solid #000; }
-.purchase_info dl {margin: 29px 0; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;}
-.purchase_info dl dt, .purchase_info dl dd {font-size: 16px; font-family: 'Pretendard'; color: #000;}
-.purchase_info dl dt {width: 20%; font-weight: 600;}
-.purchase_info dl dd {width: 80%;}
-.purchase_info dl dd input[type='text'], .purchase_info dl dd input[type='password'] {width: 100%; border-radius: 5px; border: 1px solid #000; background: #fff; box-sizing: border-box; padding: 0 13px; font-size: 16px; height: 50px;}
-.purchase_info dl dd select {width: 100%; border-radius: 5px; border: 1px solid #000; background: #fff; box-sizing: border-box; padding: 0 13px; font-size: 16px; height: 50px;}
-
-.purchase_pop ul {width: 100%; box-sizing: border-box; border-radius: 10px; background: #fafafa; padding: 15px 20px; margin-top: 40px;}
-.purchase_pop ul li {position: relative; padding-left: 15px; box-sizing: border-box; margin: 5px 0; font-size: 13px; color: #666; font-weight: 300;}
-.purchase_pop ul li::before {content: '※'; position: absolute; top: 0; left: 0;}
-
-.purchase_info__wrap {border: 1px solid #000; border-radius: 10px; box-sizing: border-box; overflow: hidden;}
-.purchase_info__wrap .head {color: #fff; font-size: 18px; box-sizing: border-box; width: 100%; height: 60px; padding: 0 25px; background: url('/_img/contents/gradation_bg.jpg') no-repeat center; background-size: contain; line-height: 60px;}
-.purchase_info__wrap .purchase_info {box-sizing: border-box; padding: 10px 25px; border-top: 0;}
-.purchase_info__wrap .purchase_info dl {margin: 20px 0;}
 
 
 
@@ -351,86 +239,6 @@ textarea:placeholder {color: #5a5a5a;}
 /*회원탈퇴*/
 #secession_pop {padding: 0;  max-height: 650px;}
 
-
-/*파일다운로드*/
-.download_pop {width: 750px; height: 600px; border-radius: 10px 0 10px 10px; padding: 2px 1px; box-sizing: border-box;}
-
-#preview_img_pop {width: 330px; height: 480px; border-radius: 10px 0 10px 10px; padding: 2px 1px; box-sizing: border-box;}
-#preview_img_pop .download_pop_content{padding:0}
-
-#download__wrap {width: 100%; height: 100%; box-sizing: border-box; overflow-y: scroll; scrollbar-width: none; -ms-overflow-style: scrollbar; padding: 50px 40px;}
-#download__wrap::-webkit-scrollbar {width: 6px; display: block;}
-#download__wrap::-webkit-scrollbar-thumb {height: 17%; background-color: #000; border-radius: 10px;}
-#download__wrap::-webkit-scrollbar-track {/*background-color:#e1e1e1; padding: 1px; box-sizing: border-box; width: 8px;*/}
-#download__wrap .pop_title {border-bottom: 1px solid #000; padding-bottom: 18px;}
-#download__wrap button.more_reply {width: 100%; height: 50px; border-radius: 5px; background-color: #fff; color: #000; border: 1px solid #000; font-size: 14px; margin-top: 25px}
-#download__wrap button.more_reply:hover {background: #000; color: #fff;}
-#download-head {}
-#download-head #file_name {font-size: 19px; font-weight: 500; color: #03ab9a; margin-bottom: 25px; line-height: 1.5;}
-#download-head #file_info {width: 100%; border-radius: 5px; background: #fafafa; box-sizing: border-box; padding: 10px 20px; justify-content: space-between; margin: 25px 0}
-#download-head #file_info p {width: 75%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
-#download-head #file_info ul {display: flex; flex-wrap: wrap; justify-content: flex-start;}
-#download-head #file_info ul li {font-size: 14px; font-weight: 300; color: #000; padding: 0 15px; box-sizing: border-box; position: relative;}
-#download-head #file_info ul li::before {position: absolute; top: 3px; left: 0; width: 1px; height: 14px; background: #e1e1e1; content: '';}
-#download-head #file_info ul li:first-of-type {padding-left:0;}
-#download-head #file_info ul li:first-of-type::before {display: none;}
-#download-head #file_info ul li span {padding-right: 10px; font-weight: 500;}
-#download-head #file_info ul li span.point {background: url('/_img/resource/coin.png') no-repeat center left; background-size: 16px; padding-left: 20px;}
-#download-head #file_info ul li strong {color: #03ab9a;}
-#download-head #file_info .comm_btnStyle {border: 1px solid #e1e1e1; width: 80px; height: 40px; padding: 0;}
-#download-head #file_info .comm_btnStyle:hover {border-color:#000;}
-#download-head #file_info .comm_btnStyle span {background-size: 13px; padding-left: 18px; font-size: 12px; padding-top: 1px; padding-bottom: 1px;}
-
-#download-head .banners {border-radius: 5px; overflow: hidden; width: 100%; margin: 25px 0 35px 0;}
-#download-head .banners img {width: 100%;}
-
-#download-body {border-top: 1px solid #000}
-#download-body .reply_list__wrap {}
-#download-body .reply_list__wrap .reply_list {padding: 20px 0; border-bottom: 1px solid  #e1e1e1;}
-#download-body .reply_list__wrap .reply_list .writer {font-size: 14px; color: #000; display: flex; flex-wrap: wrap; justify-content: flex-start; margin-bottom: 7px; align-items: center;}
-#download-body .reply_list__wrap .reply_list .writer .profile_pics {position: relative; width: 18px; height: 18px; border-radius: 100%; overflow: hidden; border:1px solid #efefef; box-sizing: border-box; margin-right: 6px;}
-#download-body .reply_list__wrap .reply_list .writer .profile_pics img {position: absolute; top: 50%; left:50%; transform: translate(-50%,-50%); width: 100%; height: 100%; object-fit: cover;}
-#download-body .reply_list__wrap .reply_list p {font-family: 'Pretendard'; font-size: 14px;}
-#download-body .reply_list__wrap .reply_list #reply_input__wrap {display: flex; flex-wrap: wrap; justify-content: space-between;}
-#download-body .reply_list__wrap .reply_list #reply_input__wrap input[type='text'] {height: 50px; width: 570px; border-radius: 5px; border: 1px solid #e1e1e1; padding: 0 15px; box-sizing: border-box; font-size:14px; font-family: 'Pretendard';}
-#download-body .reply_list__wrap .reply_list #reply_input__wrap button {width: 80px; height: 50px; color: #fff; border:0; background-color: #03ab9a; font-size: 14px; border-radius: 5px;}
-
-
-/*마이콘텐츠룸*/
-#mycontsroom_pop {width: 800px; height: 600px; border-radius: 10px 0 10px 10px; padding: 2px 1px; box-sizing: border-box;}
-#mycontsroom_pop .pop_title {justify-content:flex-start; align-items: baseline;}
-#mycontsroom_pop .pop_title p {padding-right: 10px; }
-#mycontsroom_pop .pop_title button {font-size: 14px; color: #fff; border-radius: 5px; background: #03ab9a; border: 0; height: 40px; padding: 0 10px;}
-#mycontsroom_pop #myPage_contents .section_title p {font-size: 18px;}
-#mycontsroom_pop #myPage_contents .section_title p.title span.bl01 {background-size: 20px; padding-left: 26px}
-#mycontsroom_pop #myPage_contents {padding: 0;}
-#mycontsroom_pop #myPage_contents .inner_section {margin: 40px 0}
-#mycontsroom_pop #myPage_contents ul.multi_line {margin-left: 0}
-#mycontsroom_pop #myPage_contents ul.multi_line li {width: 80px !important;}
-#mycontsroom_pop #myPage_contents .calendar_box {width: 400px;}
-#mycontsroom_pop #myPage_contents .calendar_box .dateBox input[type='text'] {width: 150px;}
-#mycontsroom_pop #myPage_contents .calendar_box button {width: 70px;}
-#mycontsroom_pop #myPage_contents .basic_board tr th, #mycontsroom_pop #myPage_contents .basic_board tr td {font-size: 14px;}
-#mycontsroom_pop #myPage_contents .recommend_contents {padding: 10px 15px}
-#mycontsroom_pop #myPage_contents .recommend_contents p {font-size: 14px; width: 80%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
-#mycontsroom_pop #myPage_contents .recommend_contents p span {font-size: 10px; padding: 3px 10px; margin-right: 7px;}
-#mycontsroom_pop #myPage_contents .recommend_contents .comm_btnStyle {width: 100px; height: 40px; padding: 9px 0}
-#mycontsroom_pop #myPage_contents .recommend_contents .comm_btnStyle span {font-size: 13px;}
-
-/*5회다운로드 제한*/
-#limit_pop {border-radius: 10px 0 10px 10px;}
-#limit_pop .pop_title {position: relative;}
-#limit_pop .pop_title::before {width: 216px; height: 154px; display: block; margin: 0 auto 20px auto; background: url('/_img/contents/limit_deco.png') no-repeat center; content: '';}
-#limit_pop .limit_alert {text-align: center; color: #fff; background: #03ab9a; border-radius: 50px;  width: 100%; font-weight: 300; padding: 10px 0}
-
-
-/*출판사 제한*/
-#copyright_limit_pop {border-radius: 10px 0 10px 10px; width: 550px;}
-#copyright_limit_pop .pop_title {position: relative;}
-#copyright_limit_pop .pop_title::before {width: 216px; height: 166px; display: block; margin: 0 auto 20px auto; background: url('/_img/contents/error2_deco.png') no-repeat center; content: '';}
-#copyright_limit_pop .limit_alert {text-align: center; color: #fff; background: #03ab9a; border-radius: 50px;  width: 100%; font-weight: 300; padding: 10px 0}
-
-
 /*소개영상*/
 .video_pop {width: 1200px; height: 678px; border-radius: 0; padding: 0;}
 
@@ -438,3 +246,87 @@ textarea:placeholder {color: #5a5a5a;}
 /*현금영수증신청*/
 #request_recipt .purchase_info dl dt {width: 25%;}
 #request_recipt .purchase_info dl dd {width: 75%;}
+
+.cs_center_contents {}
+.cs_center_contents .inner_cont {background: #fff; border-radius: 20px; box-sizing: border-box; padding: 50px;}
+.cs_center_contents .error_box { background: url('/quizwiki/images/cs_deco.png') no-repeat center left;}
+
+/*FAQ*/
+ul.faq_list {width: 100%; overflow: hidden; box-sizing: border-box; background: #fff; border-top: 1px solid #000}
+ul.faq_list > li {position: relative; width: 100%; box-sizing: border-box; border-bottom: 1px solid #dfdfdf;}
+ul.faq_list li .acc_head {display: table; position: relative; width: 100%; overflow: hidden; box-sizing: border-box; cursor: pointer;}
+ul.faq_list li .acc_head::after {position: absolute; top: 50%; right: 20px; transform: translate(0,-50%); width: 30px; height: 30px; background-image: url(/quizwiki/images/faq_plus.jpg); background-position: center; background-repeat: no-repeat; content: ''; background-size: 100%;}
+ul.faq_list li .acc_head p {display: table-cell; font-size: 16px; color: #212121; padding: 20px 25px; font-weight: 300; text-align:left}
+ul.faq_list li .acc_head p span {padding-right: 10px; font-weight: 500;}
+ul.faq_list li .acc_content {position: relative; width: 100%; overflow: hidden; box-sizing: border-box; background: #fff;}
+ul.faq_list li .acc_content div.content {background: #f8f8f8; text-align:left; box-sizing: border-box; padding: 25px; font-size: 16px; font-weight: 300; color: #212121; line-height: 1.6; overflow: hidden;  border-top:1px solid #ddd; width: 100%; font-family: 'Pretendard'; }
+
+ul.faq_list li.acc_active .acc_head p {font-weight: 500; color: #03ab9a}
+ul.faq_list li.acc_active .acc_head::after {background-image: url(/quizwiki/images/faq_minus.png);}
+
+/*  오답신고  */
+.error_box__wrap { padding: 50px 0; border-bottom: 1px solid #000; background: #f5f7f7;}
+.error_box { background: url('/_img/contents/error_deco.png') no-repeat center left; padding:10px 0 10px 160px; display: table; margin: 0 auto;}
+.error_box p {font-size: 18px; color: #333; margin: 10px 0 }
+.error_box p strong {font-weight: 500; font-size: 25px; color: #000}
+.error_box a.comm_btnStyle {border-color: #000; background: #000; color: #fff; float: none;}
+
+/*공통버튼스타일*/
+.comm_btnStyle {display:block;width:145px;height:45px;border-radius:5px;box-sizing:border-box;text-align:center;padding:12px 0;float:left;text-decoration:none;border: 0;font-size: 14px;background-color: #fff;}
+.comm_btnStyle span {font-size:14px; background-repeat:no-repeat; background-position:center left; padding-left:40px;  background-size:30px;}
+.comm_btnStyle.coupon {background-color:#5e5e5e;}
+.comm_btnStyle.coupon span {background-image:url(/_img/resource/coupon.png); color:#fff;}
+.comm_btnStyle.ticket {background-color:#58926e;}
+.comm_btnStyle.ticket span {background-image:url(/_img/resource/ticket.png); color:#fff;}
+.comm_btnStyle.study_dwn span {background-image:url("/_img/resource/icon-pdf.png"); background-size:14px; padding-left:20px;}
+.comm_btnStyle.hanguel span {background-image:url("/_img/resource/icon-hanguel.jpg"); background-size:15px; padding-left:20px;}
+.comm_btnStyle.error span {background-image:url("/_img/resource/caution.png"); background-size:20px; padding-left:28px;}
+.comm_btnStyle.omr_download {background: #fafafa; float:right; margin-bottom: 20px; border: 1px solid #e0e0e0; cursor: pointer;}
+.comm_btnStyle.omr_download span {background-image: url('/_img/resource/download.png'); font-size: 13px; padding-left: 25px; background-size:15px;}
+.comm_btnStyle.view span {background-image: url('/_img/resource/icon-search.png'); font-size: 13px; padding-left: 20px; background-size:15px;}
+.comm_btnStyle.go_myCR {background-color: #58926e; margin: 30px auto 0 auto; float: none; width: 250px;}
+.comm_btnStyle.go_myCR a {color: #fff; font-size:14px; display: block; width: 100%;}
+
+.comm_btnStyle.call-download span {background-image:url("/_img/resource/download.png"); background-size:20px; padding-left:25px;}
+.comm_btnStyle.call-download:hover {background: #000; border-color:#000; color: #fff;}
+.comm_btnStyle.call-download:hover span {background-image:url("/_img/resource/download-w.png");}
+
+.comm_btnStyle.call-download2 span {background-image:url("/_img/resource/download.png"); background-size:20px; padding-left:25px;}
+.comm_btnStyle.call-download2:hover {background: #000; border-color:#000; color: #fff;}
+.comm_btnStyle.call-download2:hover span {background-image:url("/_img/resource/download-w.png");}
+
+.comm_btnStyle.nofile span {background-image:url("/_img/resource/download.png"); background-size:20px; padding-left:25px;}
+.comm_btnStyle.nofile:hover {background: #000; border-color:#000; color: #fff;}
+.comm_btnStyle.nofile:hover span {background-image:url("/_img/resource/download-w.png");}
+.pl0 { padding-left:0px !important; }
+
+
+.class_tabs__wrap {position: relative;}
+.class_tabs__wrap a.btn-contents_intro { position: absolute; right: 0; top: 0; height:50px; line-height: 50px; font-size: 15px; color: #212121; border: 1px solid #dedede; box-sizing: border-box; width: 173px; text-align: center; border-radius: 0 5px 5px 0; background: #f8f8f8}
+.class_tabs__wrap a.btn-contents_intro i {font-size: 20px; vertical-align: middle; color: #147e8e; margin-right: 4px}
+.class_tabs__wrap a.btn-contents_intro:hover {background: #147e8e; color: #fff; border-color: #147e8e; border-left: 1px solid rgba(255,255,255,0.5);}
+.class_tabs__wrap a.btn-contents_intro:hover i {color: #fff;}
+
+
+
+.class_tabs {width: 100%; display: flex; flex-wrap: wrap; margin: 20px 0 30px 0}
+.class_tabs li { height: 50px; line-height: 50px; font-size: 16px; color: #212121; /*letter-spacing:1px;*/  border: 1px solid #dedede; box-sizing: border-box; text-align: center; width: 33.3%; background: #fff; margin-left: -1px; cursor: pointer;}
+.class_tabs li a {color: #212121;}
+.class_tabs li.active a {color: #fff;}
+.class_tabs.leng1 li {width: 100%;}
+.class_tabs.leng2 li {width: 50%;}
+.class_tabs.leng4 li {width: 25%;}
+.class_tabs.leng5 li {width: 20%;}
+.class_tabs li:first-of-type {border-radius: 5px 0 0 5px}
+.class_tabs li:last-of-type {border-radius: 0 5px 5px 0}
+.class_tabs li.active {color: #fff;}
+.class1_tabs li.active {background: #099474; border-color: #099474}
+.class2_tabs li.active {background: #147e8e; border-color: #147e8e}
+
+/*게시판페이징*/
+.bbs_pagination {display: flex; flex-wrap: wrap; justify-content: center; margin: 30px 0;}
+.bbs_pagination .btn_page_num { font-family: 'Pretendard'; font-size: 13px; width: 24px; height: 24px; line-height: 24px; display: block; text-align: center; margin: 0 5px; border-radius: 100%;}
+.bbs_pagination .btn_page_num.active {color: #fff; background: #767676;}
+.bbs_pagination .btn_page {width: 24px; height: 24px; border-radius: 100%; background-size: 100%; border: 0;}
+.bbs_pagination .btn_page.prev {background-image: url('/_img/resource/btn-pagination_prev.png');}
+.bbs_pagination .btn_page.next {background-image: url('/_img/resource/btn-pagination_next.png');}
