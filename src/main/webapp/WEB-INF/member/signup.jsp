@@ -44,35 +44,44 @@
 				<h4 class="mb-3">회원가입</h4>
 				<form class="validation-form" novalidate>
 					<div class="row">
-						<div class="col-md-6 mb-3">
+					<div class="col-md-11 mb-3">
+							<label for="name">이름</label> <input type="text"
+								class="form-control" id="name" placeholder="" value="" required>
+							<div class="invalid-feedback">이름을 입력해주세요.</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-11 mb-3">
 							<label for="member_id">아이디</label> <input type="text"
 								class="form-control" id="member_id" placeholder="" value=""
 								required>
 							<div class="invalid-feedback">아이디를 입력해주세요.</div>
 						</div>
-						<div class="col-md-6 mb-3">
-							<label for="pass">패스워드</label> <input type="password"
+					</div>
+					<!-- </div> -->
+					<!-- <div class="row"> -->
+					<div class="row">
+					<div class="col-md-11 mb-3">
+							<label for="pass">비밀번호</label> <input type="password"
 								class="form-control" id="pass"  placeholder="" value="" required>
-							<div class="invalid-feedback">패스워드를 입력해주세요.</div>
+							<div class="invalid-feedback">비밀번호를 입력해주세요.</div>
 						</div>
 					</div>
-
-					<div class="row">
-						<div class="col-md-6 mb-3">
-							<label for="name">이름</label> <input type="text"
-								class="form-control" id="name" placeholder="" value="" required>
-							<div class="invalid-feedback">이름을 입력해주세요.</div>
+						<div class="row">
+						<div class="col-md-8 mb-3">
+							<label for="pass_check">비밀번호 확인</label> <input type="password"
+								class="form-control" id="pass_check"  placeholder="" value="" required>
+							<div class="invalid-feedback">비밀번호를 다시입력해주세요.</div>
 						</div>
-						<div class="col-md-6 mb-3">
-							<label for="email">이메일</label> <input type="email"
-								class="form-control" id="email" placeholder="quizwiki@naver.com"
-								required>
-							<div class="invalid-feedback">이메일을 입력해주세요.</div>
+						<div class="col-md-1.5 mb-2 div_btn" id="div_zipcode_btn">
+							<input type="button" id="zipcode_btn_pass" class="small_btn code_num_btn"
+								onclick="" value="비밀번호 확인">
 						</div>
-					</div>
-
+						</div>
+					<!-- </div>
+					<div class="row"> -->
 					<div class="row">
-						<div class="col-md-6 mb-3">
+						<div class="col-md-11 mb-3">
 							<label for="root">성별</label> 
 							<select class="custom-select d-block w-100" id="root" required>
 								<option value=""></option>
@@ -82,61 +91,98 @@
 							</select>
 							<div class="invalid-feedback">성별을 선택해주세요.</div>
 						</div>
-						<div class="col-md-4 mb-2">
+						</div>
+						<div class="row">
+						<div class="col-md-11 mb-3">
+							<label for="email">이메일</label> <input type="email"
+								class="form-control" id="email" placeholder="quizwiki@naver.com"
+								required>
+							<div class="invalid-feedback">이메일을 입력해주세요.</div>
+						</div>
+						</div>
+					<!-- </div>
+
+					<div class="row"> -->
+						<div class="row">
+						<div class="col-md-8 mb-2">
 							<label for="sample4_postcode">연락처</label> <input type="text"
 								class="form-control" id="telnum" placeholder="-제외 숫자만 입력"
 								required>
 							<div class="invalid-feedback">전화번호를 입력해주세요.</div>
 						</div>
 						<div class="col-md-1.5 mb-2 div_btn" id="div_zipcode_btn">
-							<input type="button" id="zipcode_btn" class="code_num_btn"
+							<input type="button" id="zipcode_btn_num" class="small_btn code_num_btn"
 								onclick="" value="인증번호 발송">
 						</div>
-					</div>
+						</div>
+						<div class="row">
+						<div class="col-md-8 mb-2">
+							<label for="sample4_postcode">인증번호</label> <input type="text"
+								class="form-control" id="telnum_check" placeholder="6자리 숫자 입력"
+								required>
+							<div class="invalid-feedback">인증번호를 확인해주세요.</div>
+						</div>
+						<div class="col-md-1.5 mb-2 div_btn" id="div_zipcode_btn">
+							<input type="button" id="zipcode_btn_check" class="code_num_btn"
+								onclick="" value="인증번호 확인">
+						</div>
+						</div>
+						
+					<!-- </div>
 					
+					<div class="row"> -->
 					<div class="row">
-						<div class="col-md-4 mb-2">
+						<div class="col-md-8 mb-2">
 							<label for="sample4_postcode">우편번호</label> <input type="text"
 								class="form-control" id="sample4_postcode" placeholder="우편번호"
 								required>
 							<div class="invalid-feedback">우편번호를 통해 주소를 입력해주세요.</div>
 						</div>
 						<div class="col-md-1.5 mb-2 div_btn" id="div_zipcode_btn">
-							<input type="button" id="zipcode_btn" class="code_num_btn"
+							<input type="button" id="zipcode_btn" class="code_num_btn small_btn"
 								onclick="sample4_execDaumPostcode()" value="우편번호 찾기">
 						</div>
-					</div>
-
+						</div>
+					<!-- </div>
+					
+					<div class="row"> -->
 					<div class="row">
-						<div class="col-md-6 mb-3">
+						<div class="col-md-11 mb-3">
 							<label for="sample4_roadAddress">도로명 주소</label> <input
 								type="text" class="form-control" id="sample4_roadAddress"
 								placeholder="도로명주소" required>
 						</div>
-						<div class="col-md-6 mb-3">
+						</div>
+						<div class="row">
+						<div class="col-md-11 mb-3">
 							<label for="sample4_jibunAddress">지번주소</label> <input type="text"
 								class="form-control" id="sample4_jibunAddress"
 								placeholder="지번주소" required>
 						</div>
-					</div>
+						</div>
+					<!-- </div>
 
+					<div class="row"> -->
 					<div class="row">
-						<div class="col-md-6 mb-3">
+						<div class="col-md-11 mb-3">
 							<label for="sample4_detailAddress">상세주소</label> <input
 								type="text" class="form-control" id="sample4_detailAddress"
 								placeholder="상세주소" required>
 						</div>
-						<div class="col-md-6 mb-3">
+						</div>
+						<div class="row">
+						<div class="col-md-11 mb-3">
 							<label for="sample4_extraAddress">참고항목</label> <input type="text"
 								class="form-control" id="sample4_extraAddress"
 								placeholder="참고항목" required>
 						</div>
-					</div>
+						</div>
+					<!-- </div> -->
 
 
 					<hr class="mb-4">
 
-					<div class="row">
+					<!-- <div class="row"> -->
 						<div class="col-md-6 mb-3">
 							<div class="custom-control custom-checkbox">
 								<input type="checkbox" class="custom-control-input"	id="aggrement_personal" required> 
@@ -171,7 +217,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					<!-- </div> -->
 					<div class="mb-4"></div>
 					<button class="btn btn-primary btn-lg btn-block" type="submit">가입
 						완료</button>

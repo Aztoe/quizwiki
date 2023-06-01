@@ -36,7 +36,7 @@
         <div class="nav-bar">
             <div class="nav-container">
                 <div class="logo-wrap">
-                    <a href="/quizwiki/main"><img id="logo-img" width="100%" height="100%" src="/quizwiki/images/main/logo.png"/></a>
+                    <a href="/quizwiki/main"><img id="logo-img" width="100%" height="100%" src="/quizwiki/images/QuizWiki_logo1_trans.png"/></a>
                 </div>
                 
                 <ul class="menu-list">

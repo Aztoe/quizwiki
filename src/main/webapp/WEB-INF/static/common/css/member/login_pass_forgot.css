@@ -1,22 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
-/* $color:red;
-$color-dark:#23004d;
-$color-light:#a49eac;
-$color-lighten:#f2f2f2;
-$color-hover:#65bf97;
-$font:"Open Sans", sans-serif;
-$big-font-size:1.5rem;
-$normal-font-size:0.938rem;
-$small-font-size:0.813rem;
-
-@media screen and (max-width:768px){
-	$normal-font-size:1rem;
-	$small-font-size:0.875rem;
-} */
-
-
 *,::before,::after{
   box-sizing:border-box;
 }
@@ -27,13 +11,15 @@ body {
   font-size: 0.938rem;
   color: #23004d;
 }
-body{
+body {
+
 	min-height: 100vh;
-    background: -webkit-gradient(linear, left bottom, right top, from(#92b5db), to(#1d466c));
-    background: -webkit-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
-    background: -moz-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
-    background: -o-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
-    background: linear-gradient(to top right, #92b5db 0%, #1d466c 100%);
+	/* background: -webkit-gradient(linear, left bottom, right top, from(#92b5db),
+		to(#1d466c));
+	background: -webkit-linear-gradient(bottom left, #6797f0 0%, #1d466c 100%);
+	background: -moz-linear-gradient(bottom left, #6797f0 0%, #1d466c 100%);
+	background: -o-linear-gradient(bottom left, #6797f0 0%, #1d466c 100%); */
+	background: linear-gradient(to top, #fff 20%, #6797f0 100%);
 }
 
 h1 {
@@ -84,7 +70,7 @@ hr{
 .login__register{
   position: absolute;
   width: 100%;
-  background-color: #f2f2f2;
+  background-color: #efefef;
   padding: 2rem 1rem;
   border-radius: 1rem;
   text-align: center;
@@ -101,11 +87,12 @@ hr{
   margin-bottom: 2rem;
 }
 .login_id_forgot{
-	background-color: #f2f2f2!important;
+	background-color: #efefef!important;
     font-size: 1.2rem;
     padding: 0!important;
     padding-left: 0.3rem!important;
 }
+
 .login__box {
   display: grid;
   grid-template-columns: max-content 1fr;
@@ -126,11 +113,12 @@ hr{
 	column-gap: 4.3rem;
 }
 .login_tel {
-    column-gap: 1.8rem;
+   
+    width: 66.5%;
 }
 .login__icon {
   font-size: 1.5rem;
-  color: #007bff;
+  color: #5a49e4;
 }
 .login__input {
   border: none;
@@ -156,11 +144,33 @@ hr{
   float: right;
   
 }
+ .row{
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin: auto;
+} 
+.div__check__button{
+	padding-bottom: 0;
+	margin-top: 30px;
+    margin-left: 20px;
+}
+.check__button{
+	float: right;
+	margin-bottom: 0!important;
+    margin-top: 0!important;
+} 
+.login_num{
+	column-gap: 1.8rem;
+}
 .login__button {
   display: block;
   padding: 1rem;
   margin: 2rem 0;
-  background-color: #007bff;
+  background-color: #5a49e4;
   color: #fff;
   font-weight: 600;
   text-align: center;
@@ -168,7 +178,7 @@ hr{
   transition: 0.3s;
 }
 .login__button:hover {
-  background-color: #0062cc;
+  background-color: black;
 }
 .login__account, .login__signin, .login__signup {
   font-weight: 600;
@@ -209,10 +219,15 @@ hr{
     transform: scale(1, 1);
   }
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 0px) {
   .login__forms {
-    width: 30vw;
+    /* width: 30vw; */
+    width: 500px;
     justify-self: center;
+  }
+  .login__register {
+    bottom: -21rem;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -242,7 +257,7 @@ hr{
     left: -11rem;
   }
   .login__register {
-    bottom: -7rem;
+    bottom: -10rem;
   }
   .login__create {
     bottom: -5.5rem;
