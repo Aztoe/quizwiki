@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 # Created by https://www.toptal.com/developers/gitignore/api/java,windows,macos,eclipse
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,windows,macos,eclipse
 
@@ -154,3 +156,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/java,windows,macos,eclipse
+>>>>>>> refs/remotes/main/main
