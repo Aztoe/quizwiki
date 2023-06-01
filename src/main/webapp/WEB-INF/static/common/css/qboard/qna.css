@@ -171,3 +171,37 @@ button, select {
     text-transform: none;
 }
 
+@media screen and (max-width: 1024px)
+.community-header {
+    padding: 24px 32px;
+}
+
+.community-header {
+    padding: 24px 0;
+    width: 100%;
+    background-color: #333b3d;
+}
+
+.community-header_content {
+    margin: 0 auto;
+    max-width: 1160px;
+}
+
+.community-header_title {
+    height: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: .71;
+    color: #fff;
+    text-indent: 220px;
+    
+}
+
+.community-header_sub-title {
+	text-indent: 220px;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+}

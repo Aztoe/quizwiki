@@ -5,6 +5,6 @@
 <tiles-definitions>
 
 	<definition name="freeboard/list" extends="singleTemplate">
-		<put-attribute name="content" value="/WEB-INF/board/freeboard/freeboard_list.jsp"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/board/freeboard_list.jsp"></put-attribute>
 	</definition>
 </tiles-definitions>

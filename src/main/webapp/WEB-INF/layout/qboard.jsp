@@ -10,11 +10,9 @@
 </head>
 <body>
 	<tiles:insertAttribute name="header"></tiles:insertAttribute>
-	<tiles:insertAttribute name="banner"></tiles:insertAttribute>
 	<section id="qboard-content-section">
 		<div id="qboard-content">
-<%-- 			<tiles:insertAttribute name="aside"></tiles:insertAttribute>
- --%>			
+			
 			<tiles:insertAttribute name="content"></tiles:insertAttribute>
 		</div>
 	</section>

@@ -32,7 +32,15 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+	<!-- comunity-header -->
+	<section class="community-header">
+	<div class="community-heder_content">
+		<h2 class="community-header_title">묻고 답해요</h2>
+		<p class="community-header_sub-title">질문을 통해 궁금증을 해결하세요!</p>
+	
+	</div>
+	
+	</section>
 
 
 
