@@ -30,7 +30,7 @@
 								<strong>내신코치에 대한 궁금한 점, 편리한 1:1 문의로 해결해보세요!</strong>
 							</p>
 							<p>전화연결보다 1:1문의가 더 신속하고 편리하게 해결됩니다.</p>
-							<a href="#" class="comm_btnStyle"><span
+							<a href="oto" class="comm_btnStyle"><span
 								class="pl0">1:1 문의하기</span></a>
 						</div>
 					</div>

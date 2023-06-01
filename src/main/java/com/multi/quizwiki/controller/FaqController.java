@@ -41,4 +41,8 @@ public class FaqController {
 	public String etc() {
 		return "etc";
 	}
+	@RequestMapping("/oto")
+	public String oto() {
+		return "oto";
+	}
 }

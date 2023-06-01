@@ -28,7 +28,7 @@
                 <a href="/quizwiki/signup.do" class="shift-between">
                     회원가입
                 </a>
-                <a href="#">
+                <a href="faqt">
                     고객센터
                 </a>
             </div>

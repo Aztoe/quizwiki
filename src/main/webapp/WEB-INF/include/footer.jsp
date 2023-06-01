@@ -26,7 +26,7 @@
 		            </a>
 		        </li>
 		        <li>
-		            <a href="#">
+		            <a href="faqt">
 		                고객센터
 		            </a>
 		        </li>
