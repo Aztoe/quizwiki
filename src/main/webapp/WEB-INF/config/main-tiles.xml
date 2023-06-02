@@ -29,6 +29,13 @@
 		<put-attribute name="content" value="/WEB-INF/member/login.jsp" />
 	</definition>
 	
+	<definition name="mypageTemplate" template="/WEB-INF/layout/mypage_layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/include/header.jsp"></put-attribute>
+		<put-attribute name="banner" value="/WEB-INF/mypage/mypage_header.jsp"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/mypage/mycontentroom.jsp"></put-attribute>
+		<put-attribute name="footer" value="/WEB-INF/include/footer.jsp"></put-attribute>
+	</definition>
+	
 </tiles-definitions>
 
 
