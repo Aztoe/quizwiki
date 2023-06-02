@@ -26,7 +26,7 @@
 		            </a>
 		        </li>
 		        <li>
-		            <a href="faqt">
+		            <a href="/quizwiki/faqt">
 		                고객센터
 		            </a>
 		        </li>

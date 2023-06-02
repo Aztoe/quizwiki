@@ -30,7 +30,7 @@
 								<strong>Quiz Wiki에 대한 궁금한 점, 편리한 1:1 문의로 해결해보세요!</strong>
 							</p>
 							<p>전화연결보다 1:1문의가 더 신속하고 편리하게 해결됩니다.</p>
-							<a href="oto" class="comm_btnStyle"><span
+							<a href="/quizwiki/oto" class="comm_btnStyle"><span
 								class="pl0">1:1 문의하기</span></a>
 						</div>
 					</div>
@@ -46,12 +46,12 @@
 
 						<div class="">
 							<ul class="class_tabs leng5 class2_tabs">
-								<li><a href="faqt"
+								<li><a href="/quizwiki/faqt"
 									style="display: block">전체</a></li>
-								<li class="active"><a href="usecredit" style="display: block">이용권결제</a></li>
-								<li><a href="contentquestion" style="display: block">콘텐츠</a></li>
-								<li><a href="siteuse" style="display: block">사이트이용</a></li>
-								<li><a href="etc" style="display: block">기타</a></li>
+								<li class="active"><a href="/quizwiki/usecredit" style="display: block">이용권결제</a></li>
+								<li><a href="/quizwiki/contentquestion" style="display: block">콘텐츠</a></li>
+								<li><a href="/quizwiki/siteuse" style="display: block">사이트이용</a></li>
+								<li><a href="/quizwiki/etc" style="display: block">기타</a></li>
 
 							</ul>
 						</div>

@@ -30,7 +30,7 @@
 			</div>
 			<div id="myPage_contents">
 				<div class="inner_cont">
-					<form name="inquiry_frm" action="https://www.nscoach.com/process/inquiry_update.php" method="post" enctype="multipart/form-data" autocomplete="off"  onsubmit="return inquiry_chkfrm(this)">
+					<!-- <form name="inquiry_frm" action="https://www.nscoach.com/process/inquiry_update.php" method="post" enctype="multipart/form-data" autocomplete="off"  onsubmit="return inquiry_chkfrm(this)"> -->
 					<input type="hidden" name="w" value="">
 					<input type="hidden" name="seq" value="">
 					<div class="inner_cont">
@@ -61,12 +61,12 @@
 													</div>
 						
 						<div class="flex_wrap btn_wraps">
-							<button type="button" class="comm_buttons" style="margin: 0 10px" onClick="location.href='/my_page/inquiry.php'">취소</button>
+							<button type="button" class="comm_buttons" style="margin: 0 10px" onClick="location.href='#'">취소</button>
 							
 							<button class="comm_buttons fill" style="margin: 0 10px;">글쓰기</button>
 						</div>
 					</div>
-				</form>
+				<!-- </form> -->
 				
 						
 					</div>
