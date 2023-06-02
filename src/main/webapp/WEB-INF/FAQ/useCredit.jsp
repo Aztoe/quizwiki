@@ -46,12 +46,12 @@
 
 						<div class="">
 							<ul class="class_tabs leng5 class2_tabs">
-								<li><a href="faqt"
+								<li><a href="/quizwiki/faqt"
 									style="display: block">전체</a></li>
-								<li class="active"><a href="usecredit" style="display: block">이용권결제</a></li>
-								<li><a href="contentquestion" style="display: block">콘텐츠</a></li>
-								<li><a href="siteuse" style="display: block">사이트이용</a></li>
-								<li><a href="etc" style="display: block">기타</a></li>
+								<li class="active"><a href="/quizwiki/usecredit" style="display: block">이용권결제</a></li>
+								<li><a href="/quizwiki/contentquestion" style="display: block">콘텐츠</a></li>
+								<li><a href="/quizwiki/siteuse" style="display: block">사이트이용</a></li>
+								<li><a href="/quizwiki/etc" style="display: block">기타</a></li>
 
 							</ul>
 						</div>
