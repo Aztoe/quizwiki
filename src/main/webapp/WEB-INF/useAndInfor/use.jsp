@@ -56,7 +56,7 @@
 								<p
 									style="margin-top: 0pt; margin-bottom: 0pt; text-align: justify; line-height: 21.3333px; font-size: 10pt; font-family: '함초롬바탕'; text-indent: 0pt; letter-spacing: 0px; font-weight: normal; font-style: normal; color: rgb(0, 0, 0);">
 									<span style="margin: 0px; padding: 0px; font-family: '휴먼고딕';">본
-										약관은 내신코치(이하 "회사"라 함)에서 제공하는 교육정보서비스(이하 "서비스"라 함)의 이용에 있어 이용자의
+										약관은 Quiz Wiki(이하 "회사"라 함)에서 제공하는 교육정보서비스(이하 "서비스"라 함)의 이용에 있어 이용자의
 										권리, 의무 및 책임사항을 규정하는 것을 목적으로 한다.</span>
 								</p>
 								<p
@@ -72,7 +72,7 @@
 								<p
 									style="margin-top: 0pt; margin-bottom: 0pt; text-align: justify; line-height: 21.3333px; font-size: 10pt; font-family: '함초롬바탕'; text-indent: 0pt; letter-spacing: 0px; font-weight: normal; font-style: normal; color: rgb(0, 0, 0);">
 									<span style="margin: 0px; padding: 0px; font-family: '휴먼고딕';">①
-										본 약관의 내용은 서비스 내용 중 "이용약관" 란을 통하여 내신코치 서비스 화면(www.nscoach.com)을
+										본 약관의 내용은 서비스 내용 중 "이용약관" 란을 통하여 Quiz Wiki 서비스 화면(www.nscoach.com)을
 										통해 게시되며 약관의 규제 등에 관한 법률, 전자거래기본법, 전자서명법, 정보통신망이용촉진 등에 관한 법률 등
 										관계법에 위배되지 않는 범위에서 본 약관의 변경 및 일부 수정이 가능하다.</span>
 								</p>
@@ -1117,7 +1117,7 @@
 								<p
 									style="margin: 0pt 0px; padding: 0px; text-align: justify; text-indent: 0px; line-height: 21.3333px; font-size: 10pt; font-family: '함초롬바탕'; letter-spacing: normal; font-weight: 400; font-style: normal; color: rgb(0, 0, 0); text-transform: none; white-space: normal; word-spacing: 0px;">
 									<span style="margin: 0px; padding: 0px; font-family: '휴먼고딕';">2010.
-										3 내신코치</span>
+										3 Quiz Wiki</span>
 								</p>
 							</div>
 						</article>
