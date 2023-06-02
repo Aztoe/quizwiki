@@ -24,8 +24,8 @@
 </script>
 
 <script type="text/javascript" src="/quizwiki/js/qboard/qna.js"></script>
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- <link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script
@@ -34,12 +34,12 @@
 <body>
 	<!-- comunity-header -->
 	<section class="community-header">
-	<div class="community-heder_content">
-		<h2 class="community-header_title">묻고 답해요</h2>
-		<p class="community-header_sub-title">질문을 통해 궁금증을 해결하세요!</p>
-	
-	</div>
-	
+		<div class="community-heder_content">
+			<h2 class="community-header_title">묻고 답해요</h2>
+			<p class="community-header_sub-title">질문을 통해 궁금증을 해결하세요!</p>
+
+		</div>
+
 	</section>
 
 
@@ -51,7 +51,7 @@
 		<div id="locationBar">
 
 			<div id="locationBar_child">
-				<a href="">< /> 홈</a> &gt; <a href="/">커뮤니티</a> &gt;
+				<a href=""><  홈</a> &gt; <a href="/">커뮤니티</a> &gt;
 				<!-- 상단메뉴(카테고리) 제목과 해당 링크 수정 -->
 
 				<a href="/">질문게시판</a>
@@ -123,31 +123,118 @@
 
 
 				<div id="content_body">
-					<!-- #content_body 박스 : 이하 본문 작성하시면됩니다.  -->
+				<ul class="question-list">
+  <li class="question-container">
+    <a class="e-click-post" href="/quizwiki/qboard/read">
+      
+    <div class="question">
+      <div class="question__info">
+        <div class="question__title">
+          
+          <h3 class="title__text">
+          이 문제는 어떻게  풀어야 하나요?
+            <span class="infd-icon title__icon">
+              
+            </span>
+          </h3>
+        </div>
+        <p class="question__body">
+          풀이 방법좀 알려주세여
+        </p>
+        
+        <div class="question__info-footer">
+          <div class="question__info-detail">
+            <span class="question__info-user-name">shj</span>
+            <span>&nbsp;·&nbsp;</span>
+            <span>32분 전</span>
+            
+            
+          </div>
+          <div class="question__info-userData">
+            <dl>
+              <dt class="visually-hidden">좋아요</dt>
+              <dd class="comment__count">
+                <i class="fa-regular fa-heart"></i>
+                <span class="text">0</span>
+              </dd>
+              <dt class="visually-hidden">조회수</dt>
+              <dd class="view__count">
+                <i class="fa-regular fa-eye"></i>
+                <span class="text">1</span>
+              </dd>
+              <dt class="visually-hidden">댓글</dt>
+              <dd class="comment__count">
+                <i class="fa-regular fa-comment"></i>
+                <span class="text">0</span>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    </a>
+  </li>
 
+  <li class="question-container">
+    <a class="e-click-post" href="/chats/891755/초기-스타트업-팀-빌딩이-잘못된-거-같을-때-어떻게-하시나요">
+      
+    <div class="question">
+      <div class="question__info">
+        <div class="question__title">
+          
+          <h3 class="title__text">
+            영어 6월 모의고사 21 번
+            <span class="infd-icon title__icon">
+              
+            </span>
+          </h3>
+        </div>
+        <p class="question__body">
+        너무 어려워요 잘 모르겠어요
+        </p>
+        
+        <div class="question__info-footer">
+          <div class="question__info-detail">
+            <span class="question__info-user-name">영어싫어</span>
+            <span>&nbsp;·&nbsp;</span>
+            <span>55분 전</span>
+            
+            
+          </div>
+          <div class="question__info-userData">
+            <dl>
+              <dt class="visually-hidden">좋아요</dt>
+              <dd class="comment__count">
+                <i class="fa-regular fa-heart"></i>
+                <span class="text">0</span>
+              </dd>
+              <dt class="visually-hidden">조회수</dt>
+              <dd class="view__count">
+                <i class="fa-regular fa-eye"></i>
+                <span class="text">1</span>
+              </dd>
+              <dt class="visually-hidden">댓글</dt>
+              <dd class="comment__count">
+                <i class="fa-regular fa-comment"></i>
+                <span class="text">0</span>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    </a>
+  </li>
+  
+  </ul>
 
-					<table id="QNA" class="table tbl2">
-						<tr>
-							<th>번호</th>
-							<th>질문/답변</th>
-							<th>작성자</th>
-							<th>작성일</th>
-						</tr>
-					</table>
-
-
-
-
-
-				</div>
-			</div>
-
+	       </div>
 		</div>
 		<!-- 본문블럭 끝-->
 
 	</div>
 	<!-- Container 끝 -->
-
+</div>
 
 
 </body>

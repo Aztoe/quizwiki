@@ -11,5 +11,9 @@
 	<definition name="qboard/write" extends="qboardTemplate">
 		<put-attribute name="content" value="/WEB-INF/board/qboard/qboard_write.jsp"></put-attribute>
 	</definition>
+	
+	<definition name="qboard/read" extends="qboardTemplate">
+		<put-attribute name="content" value="/WEB-INF/board/qboard/qboard_read.jsp"></put-attribute>
+	</definition>
 </tiles-definitions>
 
