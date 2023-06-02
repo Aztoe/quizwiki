@@ -58,7 +58,7 @@
 							<a href="#" class="login__button check__button">인증번호 확인</a>
 						</div>
 					</div>
-					<a href="#"	class="login__button">비밀번호 찾기</a>				
+					<a href="/quizwiki/findPass.do"	class="login__button">비밀번호 찾기</a>				
 				</form>	
 			</div>
 		</div>

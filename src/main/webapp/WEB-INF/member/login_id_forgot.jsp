@@ -37,6 +37,7 @@
 
 						<div class="div__check__button">
 							<a href="#" class="login__button check__button">인증번호 받기</a>
+						
 						</div>
 					</div>
 
@@ -51,7 +52,7 @@
 						</div>
 					</div>
 					
-					<a href="#" class="login__button">아이디 찾기</a>
+					<a href="/quizwiki/findId" class="login__button">아이디 찾기</a>
 				</form>
 
 			</div>
