@@ -18,6 +18,11 @@ public class QBoardController {
 	}
 	@GetMapping("/freeboard/list")
 	public String show_freeboard_list() {
-		return "/freeboard/list	";
+		return "freeboard/list	";
+	}
+	
+	@GetMapping("/qboard/read")
+	public String show_qboard_read() {
+		return "qboard/read";
 	}
 }
