@@ -23,6 +23,8 @@ public class QBoardController {
 	
 	@GetMapping("/qboard/read")
 	public String show_qboard_read() {
+		System.out.println("리퀘스트 실험");
 		return "qboard/read";
 	}
+
 }
