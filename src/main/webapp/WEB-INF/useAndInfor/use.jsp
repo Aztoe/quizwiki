@@ -22,8 +22,8 @@
 					<div class="vertical_midAlign-wrap">
 						<div class="vertical_midAlign-inner bottom">
 							<ul style="justify-content: normal">
-								<li class="on"><a href="#">이용약관</a></li>
-								<li><a href="#">개인정보처리방침</a></li>
+								<li class="on"><a href="use">이용약관</a></li>
+								<li><a href="infor">개인정보처리방침</a></li>
 							</ul>
 						</div>
 					</div>

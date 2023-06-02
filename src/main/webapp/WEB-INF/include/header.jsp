@@ -28,7 +28,7 @@
                 <a href="/quizwiki/signup.do" class="shift-between">
                     회원가입
                 </a>
-                <a href="#">
+                <a href="faqt">
                     고객센터
                 </a>
             </div>
@@ -58,9 +58,9 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="circle-effect-parent">
+                        <a href="/quizwiki/qboard/list" class="circle-effect-parent">
                             <span class="text-area">
-                                질문게시판
+                                커뮤니티
                                 <svg class="circle-effect" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <circle cx="512" cy="512" r="512"></circle>
                                 </svg>
