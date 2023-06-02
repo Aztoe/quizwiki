@@ -39,14 +39,14 @@
 
 <body>
 	<div class="container">
-		<div class="logo_wrap">
-			<a href="/quizwiki/main"> <img
-				src="/quizwiki/images/QuizWiki_logo1_trans.png" id="login_title_img"
-				width="100%" height="100%">
-			</a>
-		</div>
+	<div class="logo_wrap">
+                        <a href="/quizwiki/main"> <img
+                            src="/quizwiki/images/QuizWiki_logo1_trans.png"
+                            id="login_title_img" width="100%" height="100%">
+                        </a>
+                    </div>
 		<div class="input-form-backgroud row">
-
+			
 			<div class="input-form col-md-12 mx-auto">
 				<h4 class="mb-3">회원가입</h4>
 				<form class="validation-form" novalidate>
