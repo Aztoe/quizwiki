@@ -31,8 +31,8 @@
                 <a href="/quizwiki/signup.do" class="shift-between">
                     회원가입
                 </a>
-                <a href="/quizwiki/faqt">
-                    고객센터
+                <a href="/quizwiki/mypage/mycontentroom">
+                    마이페이지<span style="font-size:9px; color:gray;">(서버연동전임시)</span>
                 </a>
             </div>
         </div>
