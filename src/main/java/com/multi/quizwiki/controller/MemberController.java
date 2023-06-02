@@ -31,4 +31,14 @@ public class MemberController {
 		return "/find_pass";
 	}
 	
+	@RequestMapping("/findId")
+	public String show_id() {
+		return "/find_forgot_id";
+	}
+	
+	@RequestMapping("/findPass")
+	public String show_pass() {
+		return "/find_forgot_pass";
+	}
+	
 }
