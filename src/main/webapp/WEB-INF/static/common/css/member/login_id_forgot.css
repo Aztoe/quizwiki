@@ -1,20 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
-/* $color:red;
-$color-dark:#23004d;
-$color-light:#a49eac;
-$color-lighten:#f2f2f2;
-$color-hover:#65bf97;
-$font:"Open Sans", sans-serif;
-$big-font-size:1.5rem;
-$normal-font-size:0.938rem;
-$small-font-size:0.813rem;
 
-@media screen and (max-width:768px){
-	$normal-font-size:1rem;
-	$small-font-size:0.875rem;
-} */
 *,::before,::after{
   box-sizing:border-box;
 }
@@ -233,7 +220,7 @@ hr{
     justify-self: center;
   }
    .login__register {
-    bottom: -17rem;
+    bottom: -18rem;
     justify-content: center;
   }
   
@@ -265,7 +252,7 @@ hr{
     left: -11rem;
   }
   .login__register {
-    bottom: -6rem;
+    bottom: -7rem;
   }
   .login__create {
     bottom: -5.5rem;

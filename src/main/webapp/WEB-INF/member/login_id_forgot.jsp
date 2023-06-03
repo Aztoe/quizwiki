@@ -23,9 +23,8 @@
 			<div class="login__forms">
 				<form action="" class="login__register" id="login-in">
 					<h1 class="login__title">
-						<a href="/quizwiki/main"> <img
-							src="/quizwiki/images/main/QuizWiki_logo1.jpeg"
-							id="login_title_img">
+						<a href="/quizwiki/main">
+							<img src="/quizwiki/images/main/QuizWiki_logo1.jpeg" id="login_title_img">
 						</a>
 					</h1>
 					<div class="login__box login_id_forgot">아이디 찾기</div>
@@ -42,6 +41,7 @@
 
 						<div class="div__check__button">
 							<a href="#" class="login__button check__button">인증번호 받기</a>
+						
 						</div>
 					</div>
 
@@ -56,7 +56,7 @@
 						</div>
 					</div>
 					
-					<a href="#" class="login__button">아이디 찾기</a>
+					<a href="/quizwiki/findId" class="login__button">아이디 찾기</a>
 				</form>
 
 			</div>
