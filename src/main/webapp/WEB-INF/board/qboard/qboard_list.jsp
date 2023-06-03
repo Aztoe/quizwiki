@@ -51,11 +51,7 @@
 		<div id="locationBar">
 
 			<div id="locationBar_child">
-				<a href=""><  홈</a> &gt; <a href="/">커뮤니티</a> &gt;
-				<!-- 상단메뉴(카테고리) 제목과 해당 링크 수정 -->
-
-				<a href="/">질문게시판</a>
-				<!-- 해당페이지 제목(서브메뉴 제목) 과 해당 링크 수정 -->
+			
 			</div>
 
 		</div>
@@ -102,13 +98,14 @@
 							onclick="location.href='/quizwiki/qboard/write'" />
 						</span>
 
-
-						<ul class="nav navbar-nav">
+						
+						<ul class="nav navbar-nav" style='float:left;'>
 							<li class="active" style="font-size: 16px;"><a href="#">국어</a></li>
 							<li class="active"><a href="#">수학</a></li>
 							<li class="active"><a href="#">영어</a></li>
 						</ul>
-						<form class="navbar-form navbar-left" action="/">
+					
+			<form class="navbar-form navbar-left" action="/">
 							<div class="input-group">
 								<input type="text" class="form-control" placeholder="검색">
 								<div class="input-group-btn">
@@ -117,7 +114,7 @@
 									</button>
 								</div>
 							</div>
-						</form>
+						</form> 
 					</div>
 				</nav>
 

@@ -65,8 +65,19 @@
 				<div class="content_body_comment-list">
 					<div class="answer_comment">
 						<div class="comment-card">
+							<div class="comment_header flex-row">
+								<div class="comment_sub-header">
+									<div class="comment_user-name-container">
+										<a href="" class="comment_user-name">code</a>
+									</div>
+									<span class="comment_update">2023.05.20</span>
+								</div>
+							</div>
 							<div class="comment_body markdown-body">
-								<p>답변: "문법적으로 옳지 않은 문장은 b) I have saw that movie three times already. 입니다. 이 문장에서 'have saw'는 현재 완료 시제의 형태를 잘못 사용한 것입니다. 올바른 형태는 'have seen'이어야 합니다. 'have'와 과거 분사 형태를 함께 사용하여 과거의 경험을 나타내는 현재 완료 시제를 표현해야 합니다."</p>
+								<p>답변: "문법적으로 옳지 않은 문장은 b) I have saw that movie three times
+									already. 입니다. 이 문장에서 'have saw'는 현재 완료 시제의 형태를 잘못 사용한 것입니다. 올바른
+									형태는 'have seen'이어야 합니다. 'have'와 과거 분사 형태를 함께 사용하여 과거의 경험을 나타내는
+									현재 완료 시제를 표현해야 합니다."</p>
 							</div>
 
 
@@ -75,7 +86,7 @@
 							<div class="re-comment__header flex-row">
 								<h4 class="re-comment__title">답글</h4>
 								<button
-									class="ac-button is-md is-text re-comment__fold-button e-fold ">
+									class="ac-button is-md is-text re-comment__fold-button e-fold " style="float:right;">
 									접기
 									<svg width="16" xmlns="http://www.w3.org/2000/svg" height="16"
 										viewBox="0 0 16 16">
@@ -84,7 +95,14 @@
 											clip-rule="evenodd"></path></svg>
 								</button>
 							</div>
-								
+							<div class="re-comment_body">
+								<div class="re-comment__open-editor-button-container">
+
+									<button
+										class="ac-button is-md is-text re-comment__open-editor-button e-open-re-comment-editor ">답글
+										달기</button>
+								</div>
+							</div>
 						</div>
 					</div>
 
