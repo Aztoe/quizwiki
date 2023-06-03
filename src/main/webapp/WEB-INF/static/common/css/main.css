@@ -56,8 +56,11 @@ section{
 	min-height: 70vh;
 	background-image: url(/quizwiki/images/main/main_banner.png);
 	background-position: center;
-	background-repeat: no-repeat;
 	display: flex;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+    padding: 30px 10px;
 }
 
 #main-banner-section a{
